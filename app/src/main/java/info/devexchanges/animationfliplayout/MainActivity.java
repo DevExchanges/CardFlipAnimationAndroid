@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements FragmentManager.O
     private void flipCard() {
         if (isShowingBackLayout) {
             getFragmentManager().popBackStack();
-            return;
+            return;.
         }
         isShowingBackLayout = true;
 
